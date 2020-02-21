@@ -18,6 +18,11 @@ class IntputOutputPath:
         if "dir" not in kwargs:
             self.dir = "ltr"                    # default direction is left to right
 
+        if "window_title" not in kwargs:
+            if self.dir == "ltr":
+                self.window_title = "Please choose file(s) path"
+            else:
+                self.window_title = "אנא בחרו את מיקום הקובץ"
         if 'types' not in kwargs:
             self.types = ["input", "output"]          # default behvaior: input + output path
 
@@ -60,7 +65,7 @@ class IntputOutputPath:
             self.inputfile = None
         if 'output' in self.types:
             self.outputfile = None
-        print(vars(self))
+
 
         def submit(self):
             if 'input' in self.types:

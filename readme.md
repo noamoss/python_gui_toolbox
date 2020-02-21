@@ -18,7 +18,7 @@ A default window will pop-up, asking user to type in or browse for input and out
 type or call `file_path.inputfile` or `file_path.outputfil` to get the chose file(s) path.
 
 Parameters:
--`window_title`: text to be displayed at the top of the window. Default: `Please choose file(s) path`
+-`window_title`: text to be displayed at the top of the window. Default: `Please choose file(s) path` (for LTR) / `אנא בחרו את מיקום הקובץ` (RTL)
 - `dir`: (`ltr`/`rtl`) the gui orientation. Deafult: `ltr` (English)
 - `types`: (`[input, output]` / `input`/`output`/) What types of file(s) path to ask for, Default:`[intput, output`]
 

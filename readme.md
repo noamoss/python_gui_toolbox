@@ -2,8 +2,9 @@
 
 ### Usage:
 1. Clone the repo.
-2. find the relevant gui tool (i.e. `IntputOutputPath`)
-3. Import `IntputOutputPath` from pythonGUI.
+2. install [tkinter](https://tkdocs.com/tutorial/install.html)
+3. find the relevant gui tool (i.e. `IntputOutputPath`)
+4. import `IntputOutputPath` from pythonGUI.
 
 
 ### InputOutputPath
